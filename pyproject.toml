@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "timeless"
+version = "0.1.0"
+description = ""
+authors = ["Pachiracle <pachiracledev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+langchain = "^0.3.4"
+langgraph = "^0.2.39"
+redis = "^5.2.0"
+fastapi = {extras = ["standard"], version = "^0.115.4"}
+langchain-community = "^0.3.3"
+uvicorn = "^0.32.0"
+async-timeout = "^4.0.3"
+sqlalchemy = "^2.0.36"
+psycopg2-binary = "^2.9.10"
+pyjwt = "^2.9.0"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+boto3 = "^1.35.50"
+python-multipart = "^0.0.16"
+langchain-openai = "^0.2.4"
+pymilvus = "^2.4.9"
+langchain-mongodb = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
